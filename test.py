@@ -1,4 +1,3 @@
-# pip install opencv-python 
 import cv2
 from skimage import feature
 from sklearn.externals import joblib
@@ -10,7 +9,6 @@ import pandas as pd
 def test_model():	
 	
 	svm_model=joblib.load('svm_face_train_modelnew.pkl')
-	#neural_model=joblib.load('neural_face_train_modelnew.pkl')
 	num_of_sample = 10
 	vid = cv2.VideoCapture(0) # to open the camera
 	# haar cascade for frontal face
