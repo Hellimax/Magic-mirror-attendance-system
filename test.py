@@ -1,6 +1,5 @@
 # pip install opencv-python 
 import cv2
-import matplotlib.pyplot as plt
 from skimage import feature
 from sklearn.externals import joblib
 from datetime import datetime as dt
