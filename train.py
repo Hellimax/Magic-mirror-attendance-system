@@ -1,6 +1,5 @@
 import numpy as np 
 import matplotlib.image as mimg
-import matplotlib.pyplot as plt
 from skimage import feature
 from sklearn import svm
 from sklearn.externals import joblib
