@@ -1,7 +1,7 @@
 # Magic-mirror-attendance-system
 A attendance system that uses face recognition to mark the attendance of a user
 
-Modules Needed = numpy, pandas, scikit-learn, opencsv
+Modules Needed = numpy, pandas, scikit-learn, opencv
 
 Just run Attendance.py 
 
