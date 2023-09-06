@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.image as mimg
 from skimage import feature
 from sklearn import svm
-from sklearn.externals import joblib
+import joblib
 import os
 import pandas as pd
 def train_model():

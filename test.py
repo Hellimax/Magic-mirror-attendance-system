@@ -1,6 +1,6 @@
 import cv2
 from skimage import feature
-from sklearn.externals import joblib
+import joblib
 from datetime import datetime as dt
 import train
 import statistics 
